@@ -7,6 +7,7 @@ module.exports = {
       colors: {
         primary: "#050c16",
         secondary: "#a6b0c3",
+        button: 'rgba(255, 255, 255, 0.35)',
         tertiary: "#101d30",
         "black-100": "#0d1625",
         "black-200": "#030f25",
@@ -19,7 +20,7 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
+        "hero-pattern": "linear-gradient(rgba(0,0,0,0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(5, 12, 22, 1)), url('/src/assets/herobg.png')",
       },
     },
   },

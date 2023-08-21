@@ -21,6 +21,9 @@ import {
   actnow,
   restify,
   threejs,
+  linkedin,
+  github,
+  instagram
 } from "../assets";
 
 export const navLinks = [
@@ -233,4 +236,25 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+const social = [
+  {
+    name: "LinkedIn",
+    tag: "goutam-singh-uoft",
+    link: "https://www.linkedin.com/in/goutam-singh-uoft/",
+    logo: linkedin,
+  },
+  {
+    name: "GitHub",
+    tag: "Goutam112",
+    link: "https://github.com/Goutam112",
+    logo: github,
+  },
+  {
+    name: "Instagram",
+    tag: "goutamsingh_",
+    link: "https://www.instagram.com/goutamsingh_",
+    logo: instagram,
+  },
+];
+
+export { services, technologies, experiences, projects, social };

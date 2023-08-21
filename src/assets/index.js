@@ -28,6 +28,9 @@ import yelpcamp from "./yelpcamp.png";
 import actnow from "./actnow.png";
 import restify from "./restify.png";
 
+import linkedin from "./linkedin.png"
+import instagram from "./instagram.png"
+
 export {
   logo,
   backend,
@@ -54,5 +57,7 @@ export {
   restify,
   nextjs,
   bootstrap,
-  expressjs
+  expressjs,
+  linkedin,
+  instagram
 };

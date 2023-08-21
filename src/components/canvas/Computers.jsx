@@ -8,7 +8,7 @@ import CanvasLoader from "../Loader";
 
 const Computers = ({ dMode }) => {
   const computer = useGLTF("./macbook_pro/scene.gltf");
-  const yPos = dMode == "mobile" ? -2.9 : dMode == "tablet" ? -3 : -3.75;
+  const yPos = dMode == "desktop" ? -3.75 : -3.25;
 
   return (
     <mesh>
@@ -79,7 +79,6 @@ const ComputersCanvas = () => {
           minPolarAngle={Math.PI / 2}
           autoRotate
         />
-        {/* <Computers isMobile={isMobile} /> */}
         <Computers dMode={displayMode} />
       </Suspense>
 
