@@ -121,19 +121,6 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Freelance Web Developer",
-    company_name: "Infinite Sourcing",
-    icon: infinite,
-    iconBg: "#E6DEDD",
-    date: "June 2021 - Sept 2021, August 2023 - Present",
-    points: [
-      "Built a responsive and user-friendly company website using HTML/CSS, Sass, JavaScript and Bootstrap",
-      "Implemented RESTful API endpoints using JavaScript, Node.js and Express.js to support and use EJS templates and components for better webpage efficiency",
-      "Collaborated closely with the CEO and in-house designers to ensure all website specifications were satisfied",
-      "Rebuilt website from the ground up to incorporate React.js in order to implement advanced frontend functionality and update layout + content"
-    ],
-  },
-  {
     title: "Software Engineer - Co-op",
     company_name: "Oracle",
     icon: oracle,
@@ -145,6 +132,19 @@ const experiences = [
       "Developed features and efficient responsive app pages using HTML/CSS, TypeScript, Preact, and Oracle proprietary technologies resulting in significantly improved webpage performance compared to previous release",
       "Created and updated robust & extensive automated testcases for newly integrated features using Selenium and Chai",
       "Debugged and QA-tested several features to ensure bug-free functionality for sprint reviews",
+    ],
+  },
+  {
+    title: "Freelance Web Developer",
+    company_name: "Infinite Sourcing",
+    icon: infinite,
+    iconBg: "#E6DEDD",
+    date: "June 2021 - Sept 2021, August 2023 - Present",
+    points: [
+      "Built a responsive and user-friendly company website using HTML/CSS, Sass, JavaScript and Bootstrap",
+      "Implemented RESTful API endpoints using JavaScript, Node.js and Express.js to support and use EJS templates and components for better webpage efficiency",
+      "Collaborated closely with the CEO and in-house designers to ensure all website specifications were satisfied",
+      "Rebuilt website from the ground up to incorporate React.js in order to implement advanced frontend functionality and update layout + content"
     ],
   },
 ];
