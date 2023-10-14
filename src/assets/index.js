@@ -23,6 +23,7 @@ import expressjs from './tech/expressjs.png'
 
 import oracle from "./company/oracle.png";
 import infinite from "./company/infinite.png";
+import jazari from "./company/jazari.png"
 
 import yelpcamp from "./yelpcamp.png";
 import actnow from "./actnow.png";
@@ -52,6 +53,7 @@ export {
   threejs,
   oracle,
   infinite,
+  jazari,
   yelpcamp,
   actnow,
   restify,

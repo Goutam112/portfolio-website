@@ -17,6 +17,7 @@ import {
   git,
   infinite,
   oracle,
+  jazari,
   yelpcamp,
   actnow,
   restify,
@@ -139,12 +140,24 @@ const experiences = [
     company_name: "Infinite Sourcing",
     icon: infinite,
     iconBg: "#E6DEDD",
-    date: "June 2021 - Sept 2021, August 2023 - Present",
+    date: "June 2021 - Sept 2021t",
     points: [
       "Built a responsive and user-friendly company website using HTML/CSS, Sass, JavaScript and Bootstrap",
       "Implemented RESTful API endpoints using JavaScript, Node.js and Express.js to support and use EJS templates and components for better webpage efficiency",
       "Collaborated closely with the CEO and in-house designers to ensure all website specifications were satisfied",
       "Rebuilt website from the ground up to incorporate React.js in order to implement advanced frontend functionality and update layout + content"
+    ],
+  },
+  {
+    title: "Junior Software Development Intern",
+    company_name: "Jazar AI Research Institute",
+    icon: jazari,
+    iconBg: "#35AFBF",
+    date: "May 2018 - August 2021",
+    points: [
+      "Did Object-Oriented-Programming in Python to develop classes and methods for the foundation of a security camera facial recognition algorithm",
+      "Used Python libraries such as Matplotlib, Pandas, and Seaborn for graphing and visualizing statistical data to plot the accuracy of the algorithm.",
+      "Collaborated closely with the CFO and Senior Engineers to deliver tasks in time and up to mark",
     ],
   },
 ];
