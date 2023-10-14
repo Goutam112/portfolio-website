@@ -19,7 +19,7 @@ const Computers = ({ dMode }) => {
       <spotLight intensity={35} position={[1, 2, 5]} />
       <primitive
         object={computer.scene}
-        scale={dMode == "mobile" ? 8.5 : dMode == "tablet" ? 12.5 : 16.5}
+        scale={dMode == "mobile" ? 7 : dMode == "tablet" ? 12.5 : 16.5}
         position={[0, yPos, 0]}
         rotation={[0, 2, 0]}
       />
