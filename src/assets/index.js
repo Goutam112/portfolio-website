@@ -25,9 +25,10 @@ import oracle from "./company/oracle.png";
 import infinite from "./company/infinite.png";
 import jazari from "./company/jazari.png"
 
-import yelpcamp from "./yelpcamp.png";
+import findify from "./findify.png"
 import actnow from "./actnow.png";
 import restify from "./restify.png";
+import wanderlodge from "./wanderlodge.png";
 
 import linkedin from "./linkedin.png"
 import instagram from "./instagram.png"
@@ -54,9 +55,10 @@ export {
   oracle,
   infinite,
   jazari,
-  yelpcamp,
+  findify,
   actnow,
   restify,
+  wanderlodge,
   nextjs,
   bootstrap,
   expressjs,

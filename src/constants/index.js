@@ -18,9 +18,10 @@ import {
   infinite,
   oracle,
   jazari,
-  yelpcamp,
+  findify,
   actnow,
   restify,
+  wanderlodge,
   threejs,
   linkedin,
   github,
@@ -122,17 +123,16 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Engineer - Co-op",
+    title: "Software Engineer Intern",
     company_name: "Oracle",
     icon: oracle,
     iconBg: "#E6DEDD",
     date: "May 2022 - April 2023",
     points: [
-      "Worked in a team setting to build B2B marketing automation platforms: Jarvis CRM and Eloqua",
-      "Contributed in SCRUMs and bi-weekly Sprint Review discussions with team for sprint planning and problem-solving",
-      "Developed features and efficient responsive app pages using HTML/CSS, TypeScript, Preact, and Oracle proprietary technologies resulting in significantly improved webpage performance compared to previous release",
-      "Created and updated robust & extensive automated testcases for newly integrated features using Selenium and Chai",
-      "Debugged and QA-tested several features to ensure bug-free functionality for sprint reviews",
+      "Collaborated in agile teams to build B2B platforms such as Jarvis CRM and Eloqua Marketing Automation",
+      "Developed 12+ major features and efficient responsive app pages using HTML/CSS, TypeScript, React, and Oracle's OJET & Spectra libraries and VBCS, resulting in 43% better webpage performance versus previous release",
+      "Developed & integrated Virtual Finite State Machine for application-wide user activity state management",
+      "Ensured quality of 30+ features via bug fixes, QA-testing, and development of robust automated testcases using Selenium, Mocha & Chai catching over 91% of bugs, leading to 33% fewer bugs in bi-monthly Sprint reviews"
     ],
   },
   {
@@ -142,39 +142,41 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "June 2021 - Sept 2021t",
     points: [
-      "Built a responsive and user-friendly company website using HTML/CSS, Sass, JavaScript and Bootstrap",
-      "Implemented RESTful API endpoints using JavaScript, Node.js and Express.js to support and use EJS templates and components for better webpage efficiency",
-      "Collaborated closely with the CEO and in-house designers to ensure all website specifications were satisfied",
-      "Rebuilt website from the ground up to incorporate React.js in order to implement advanced frontend functionality and update layout + content"
+      "Built a responsive and user-friendly company website using HTML/CSS, Sass, JavaScript and Bootstrap, leading to a 28% boost in firm's client outreach which resulted in an est. USD 900,000 boost to annual turnover",
+      "Implemented backend REST API endpoints using JavaScript, Node.js and Express.js to seamlessly integrate EJS templates and components, leading to 35% faster webpage loading performance & development process",
+      "Collaborated with cross-functional teams to conduct user testing and gather feedback for continuous website enhancements, resulting in 33% reduction in bounce rate and 45% increase in user engagement"
     ],
   },
   {
     title: "Junior Software Development Intern",
-    company_name: "Jazar AI Research Institute",
+    company_name: "Jazari AI Research Institute",
     icon: jazari,
     iconBg: "#35AFBF",
     date: "May 2018 - August 2021",
     points: [
       "Did Object-Oriented-Programming in Python to develop classes and methods for the foundation of a security camera facial recognition algorithm",
       "Used Python libraries such as Matplotlib, Pandas, and Seaborn for graphing and visualizing statistical data to plot the accuracy of the algorithm.",
-      "Collaborated closely with the CFO and Senior Engineers to deliver tasks in time and up to mark",
     ],
   },
 ];
 
 const projects = [
   {
-    name: "YelpCamp",
-    description:
-      "Web-based platform that allows users to view campgrounds on a clustermap and review them, along with upload camps of their own for other users to see",
+    name: "Findify",
+    descrition:
+      "Web application that revolutionizes the lost & found process exclusively for UofT students & staff, offering a streamlined and secure solution to reclaim lost items.",
     tags: [
       {
-        name: "nodejs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
         name: "expressjs",
-        color: "orange-text-gradient",
+        color: "pink-text-gradient",
       },
       {
         name: "javascript",
@@ -182,20 +184,20 @@ const projects = [
       },
       {
         name: "mongodb",
-        color: "green-text-gradient",
+        color: "orange-text-gradient",
       },
       {
         name: "bootstrap",
         color: "purple-text-gradient",
-      },
+      }
     ],
-    image: yelpcamp,
-    source_code_link: "https://github.com/",
+    image: findify,
+    source_code_link: "https://github.com/utmgdsc/Findify"
   },
   {
     name: "ActNow",
     description:
-      "Mobile application that allows users to browse and attend events created by other users or web-scraped from other event-platforms, as well as create events of their own, in order to boost social interaction in a post-pandemic world",
+      "Mobile application that allows users to browse and attend events created by other users or web-scraped from other event-platforms, as well as create events of their own, in order to boost social interaction in a post-COVID world",
     tags: [
       {
         name: "flutter",
@@ -221,7 +223,7 @@ const projects = [
   {
     name: "Restify",
     description:
-      "Online property rental platform for users to browse, rent, and review properties, as well as list their own properties as rentals for other users",
+      "Online property rental platform for the UofT student community designed to simplify the process of listing, booking, and reviewing rental properties, addressing the unique accommodation needs of students",
     tags: [
       {
         name: "reactjs",
@@ -245,7 +247,36 @@ const projects = [
       },
     ],
     image: restify,
-    source_code_link: "https://github.com/Goutam112/csc309-restify/tree/master",
+    source_code_link: "https://github.com/Goutam112/csc309-restify/",
+  },
+  {
+    name: "WanderLodge",
+    description:
+      "Web-based platform that allows users to view campgrounds on a clustermap and review them, along with upload camps of their own for other users to see",
+    tags: [
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "expressjs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "purple-text-gradient",
+      },
+    ],
+    image: wanderlodge,
+    source_code_link: "https://github.com/Goutam112/WanderLodge",
   },
 ];
 
